@@ -3,8 +3,9 @@
 print("\n")
 print("Please store your name and age. . .")
 print("\n")
-your_name = "kc, your friendly neighborhood equilibrium constant"
-your_age = "over 9000"
+your_name = input("Enter your name")
+your_age = input("Enter your age")
+print("\n")
 is_female = True  # Boolean value
 print("Hello, there, " + your_name + ". . . ")
 print("\n")
@@ -25,13 +26,13 @@ print("\n")
 print("...")
 print("\n")
 character_name = "Mina Harker" # string variable
-character_age = "50" # you can report this as as an integer, but use string in order to print in string
+character_age = 50
 is_female = True
 print("Inside the mansion. . .")
 print("\n")
 phrase = "mina harker's journal"
 print(phrase.upper())
-print("My name is " + character_name + ", and I am " + character_age + " years old") # concatenation string1 + string2; cannot concatenate string with integer
+print(f"My name is { character_name }, and I am {character_age} years old") # concatenation string + integer
 print("I'm looking for my husband, Jonathan.")
 print("He has been missing for some time now.")
 print("My gut is telling me that something lured him back to Transylvania.")
@@ -39,3 +40,17 @@ print("It has been 20 years since Van Helsing passed")
 print("I'm afraid Jonathan and I are the only two left alive who know what happened so long ago")
 print("I'm leaving tonight with to find him.")
 print("\n")
+count = 3
+
+print("ENCOUNTER WITH COUNT VON COUNT")
+counttoten = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(counttoten)
+friends = ["the count", "big bird", "cookie monster"]
+print("AH AH AH AH AHHH!!")
+print(friends)
+
+def say_hi():
+    print("Hi, friend.")
+
+say_hi()
+
