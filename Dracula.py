@@ -51,6 +51,16 @@ print(friends)
 
 def say_hi():
     print("Hi, friend.")
-
 say_hi()
 
+is_human= False
+is_female= True
+
+if is_female and is_human:
+    print("You are a female human")
+elif is_female and not is_human:
+    print("You are a female creature")
+elif not is_female and not is_human:
+    print("You are a male creature")
+else:
+    print("You are a male human")
