@@ -9,16 +9,19 @@ print("\n")
 is_female = True  # Boolean value
 print("Hello, there, " + your_name + ". . . ")
 print("\n")
-print("You are outside, at night.")
-print("There is a deadly chill in the night air")
+print("You are in an old growth forest somewhere in Transylvania, at night.")
+print("There is a chill in the air")
 print("The world is still except for the fog that swirls continuously around your feet")
-print("Not even the smallest, most hidden crickets dare to chirp")
+print("Not even the smallest, most hidden crickets are chirping")
 print("You come across a fork in your path.")
-print("To the left is a clearing with thousands of pale white moths")
-print("To the right is a creek of rushing fresh water")
-#if left
-print("bats swoop down all around you to catch the moths")
-#if right --> creek gets deeper and you get chased by evil siren
+print("\n")
+print("To the left is a clearing with thousands of pale white moths fluttering above the brush")
+print("To the right is a river. You hear its rushing fresh water")
+path_1=input("Will you go (1) left to the clearing or (2) right to the river? \n")
+if path_1 == 1: # you need two = signs for python conditionals
+    print("bats swoop down all around you to catch the moths")
+else:
+    print("You hear beautiful music from below the water")
 print("\n")
 print("You have been walking through the woods all night now, and trip on something on the forest floor")
 print("covered by the ferns and dirt, you see an old book")
