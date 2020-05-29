@@ -3,19 +3,30 @@
 print("\n")
 print("Please store your name and age. . .")
 print("\n")
-your_name = input("Enter your name")
-your_age = input("Enter your age")
+your_name = input("Enter your name \n")
+your_age = input("Enter your age \n")
 print("\n")
 is_female = True  # Boolean value
 print("Hello, there, " + your_name + ". . . ")
 print("\n")
-print("Outside, the world is still, stagnant")
-print("Not even the smallest, most hidden insects dare to break the silence with their chitter")
-print("You have been walking through the woods all night, and happen upon a journal on the forest floor")
+print("You are outside, at night.")
 print("There is a deadly chill in the night air")
+print("The world is still except for the fog that swirls continuously around your feet")
+print("Not even the smallest, most hidden crickets dare to chirp")
+print("You come across a fork in your path.")
+print("To the left is a clearing with thousands of pale white moths")
+print("To the right is a creek of rushing fresh water")
+#if left
+print("bats swoop down all around you to catch the moths")
+#if right --> creek gets deeper and you get chased by evil siren
 print("\n")
+print("You have been walking through the woods all night now, and trip on something on the forest floor")
+print("covered by the ferns and dirt, you see an old book")
+print("you bend down and dust off the molding book. It reads 'Mina Harker's Journal'")
+has_MinaHarkerjournal = input("Do you pick it up? \n")#if has_MinaHarkerjournal = True: she can use it to find secrets
 print("You trip on a memory sending you falling backwards through time... to before you were born")
-print("Your stomach turns as you remember a familiar yet unfamiliar voice")
+print("\n")
+print("Your stomach turns as you remember a familiar voice")
 print("Something, possibly, from another lifetime. . .") # you are Van Helsing, reincarnated
 quote1 = "'Listen to them, the children of the night. What music they make!'" # no double ""
 print(quote1)
