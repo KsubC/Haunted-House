@@ -18,6 +18,7 @@ print("\n")
 print("To the left is a clearing with thousands of pale, white moths fluttering above the brush")
 print("To the right is a river. You hear its fresh water carrying off in the distance")
 path_1=input("Will you go 1. left to the clearing, or 2. right to the river? \n")
+path_1=int(path_1) #you have to define the input as an integer for it to work with conditional, below
 if path_1 == 1: # you need two = signs for python conditionals
     print("bats swoop down all around you to catch the moths")
 else:
