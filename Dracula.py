@@ -6,8 +6,8 @@ print("\n")
 your_name = input("Enter your name \n")
 your_age = input("Enter your age \n")
 print("\n")
-is_female = True  # Boolean value
-print("Hello, there, " + your_name + ". . . ")
+is_female = True  # Boolean value true/false
+print("Hello there, " + your_name + ". . . ")
 print("\n")
 print("You are walking through an old growth forest somewhere in the world.")
 print("There is a chill in the night air")
@@ -20,14 +20,20 @@ print("To the right is a river. You hear its fresh water carrying off in the dis
 path_1=input("Will you go 1. left to the clearing, or 2. right to the river? \n")
 path_1=int(path_1) #you have to define the input as an integer for it to work with conditional, below
 if path_1 == 1: # you need two = signs for python conditionals
-    print("bats swoop down all around you to catch the moths")
+    print("You walk left, into the clearing.")
+    print("You look up and can see the moon through the sudden break in tree cover.")
+    print("The sky is peppered with bats that swoop down all around you to catch the moths.")
+    print("Suddenly you hear a squeaky voice from above chirp '" + your_name + "'. . .")
+    print("It's one of the bats! It seems friendly.")
+    print("'"+your_name+ ", you are in imminent danger,' chirped another bat")
 else:
     print("You hear beautiful music from below the water")
 print("\n")
 print("You have been walking through the woods all night now, and trip on something on the forest floor")
 print("covered by the ferns and dirt, you see an old book")
+has_MinaHarkerjournal = input("Do you pick it up? \n")#if has_MinaHarkerjournal = True: she can use it to learn secrets
+print("\n")
 print("you bend down and dust off the molding book. It reads 'Mina Harker's Journal'")
-has_MinaHarkerjournal = input("Do you pick it up? \n")#if has_MinaHarkerjournal = True: she can use it to find secrets
 print("You trip on a memory sending you falling backwards through time... to before you were born")
 print("\n")
 print("Your stomach turns as you remember a familiar voice")
