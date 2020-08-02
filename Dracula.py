@@ -72,10 +72,7 @@ print(f"My name is { character_name }, and I am {character_age} years old") # co
 print("I'm looking for my husband, Jonathan.")
 print("He has been missing for some time now.")
 print("My gut is telling me that something lured him back to Transylvania.")
-print("It has been 20 years since Van Helsing passed")
-print("I'm afraid Jonathan and I are the only two left alive who know what happened so long ago")
-print("I'm leaving tonight with to find him.")
-print("\n")
+
 count = 3
 
 print("ENCOUNTER WITH COUNT VON COUNT")
